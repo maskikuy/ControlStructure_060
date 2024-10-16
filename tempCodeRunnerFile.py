@@ -15,6 +15,6 @@ def evaluasi_kinerja(percentage):
 # masukan untuk memastikan bahwa masukan tersebut berupa angka antara 0 dan 100.
 percent = float(input("Enter the percentage: "))
 ## output untuk masukan presentasi
-result = evaluasi_kinerja(percent)
+result = evaluate_performance(percent)
 print(result)
 ## cetak hasilnya
